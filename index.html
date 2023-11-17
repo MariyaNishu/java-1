@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<!-- data addition -->
+		<h1>click the button to calculate the values</h1>
+		<button class="btn btn-dark" onclick="dataAddition()">Sum</button>
+		<h2 id="sum">output</h2>
+		<hr>
+
+		<!-- class name --> 
+		<button onclick="cName()" class="btn btn-success">Calling by class</button>
+		<h2 class="h2">Lorem, ipsum.</h2>
+		<h2 class="h2">Lorem, ipsum.</h2>
+		<h2 class="h2">Lorem, ipsum.</h2>
+		<h2 class="h2">Lorem, ipsum.</h2>
+		<hr>
+
+		<!-- show/hide -->
+		<h1 class="text-info">click the button to show/hide the text</h1>
+		<button onmouseover="textHide()" class="btn btn-success">Hide</button>
+		<button onmouseover="textShow()" class="btn btn-danger">Show</button>
+		<h2 id="sh">Lorem ipsum, dolor sit</h2>
+		<hr>
+
+		<!-- color change -->
+		<h1 class="text-info">click the button to change the color</h1>
+		<button onclick="colorChange()" class="btn btn-dark">Color change</button>
+		<h2 id="cc">Lorem ipsum, dolor sit</h2>
+		<hr>
+
+		<!-- bulb on/off -->
+		<h1 class="text-info">click the button to on/ off the bulb</h1>
+		<button onclick="bulbOn()" type="button" class="btn btn-primary">On</button>
+		<button onclick="bulbOff()" type="button" class="btn btn-danger">Off</button>
+		<img id="img" src="images/off.gif" alt="">
+		<hr>  
+
+		<!-- text change -->
+		<h1 class="text-info">click the button to change the text</h1>
+		<button class="btn btn-dark" onclick="textChange()">text Change</button>
+		<h2 id="tc">Lorem ipsum dolor sit amet.</h2>
+        <hr>
+
+		<!-- date -->
+	     
+		<h1 class="text-info">click the button to SHOW the date</h1>
+		<button class="btn btn-dark" type="button"ondblclick="showDate()">show date</button>
+		<h2 id="sd">Date</h2>
+	</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+	
+</body>
+</html>
